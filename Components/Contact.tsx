@@ -114,12 +114,13 @@ export function Contact() {
 
         const receiverPhone = '233246795904';
 
-        const text = `*New Website Quote Request*%0A%0A` +
-            `*Name:* ${formData.name}%0A` +
-            `*Phone:* ${formData.phone}%0A` +
-            `*Email:* ${formData.email}%0A` +
-            `*Service:* ${formData.service}%0A` +
-            `*Message:* ${formData.message}%0A`;
+        const text = `Hello! New quote request from website.%0A%0A` +
+            `👤 Name: ${formData.name}%0A` +
+            `📞 Phone: ${formData.phone}%0A` +
+            `📧 Email: ${formData.email}%0A` +
+            `🛠️ Service: ${formData.service}%0A` +
+            `💬 Message: ${formData.message || 'No message provided'}%0A%0A` +
+            `Please get back to me soon!`;
 
         const waUrl = `https://wa.me/${receiverPhone}?text=${encodeURIComponent(text)}`;
 
