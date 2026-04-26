@@ -9,7 +9,7 @@ export default function Navbar() {
     const pathname = usePathname();
     
     return(
-        <nav className="fixed w-screen bg-white/80 z-50 shadow-b font-serif flex shadow-gray-500 shadow-lg py-2 px-5 items-center justify-between backdrop:blur-md border border-b border-slate-200">
+        <nav className="fixed w-full bg-white/80 z-50 shadow-b font-serif flex shadow-gray-500 shadow-lg py-2 px-5 items-center justify-between backdrop:blur-md border border-b border-slate-200">
             <Link href='/' className="flex gap-1">
                 <img src="\assets\logo.JPG" alt="Logo" className="w-8 rounded-sm object-cover"/>   
                 <h3 className="text-blue-900 font-bold md:text-xl mt-1">Moving Links Tech</h3>

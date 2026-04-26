@@ -18,7 +18,7 @@ const servicesData = [
 export default function Services() {
 
     return (
-        <main className="my-10 mx-5 font-serif" id="services">
+        <main className="p-5 font-serif w-full" id="services">
             <div className="items-center justify-center space-x-3 text-center flex">
                 <div className="w-20 border border-blue-900"></div>
                 <h1 className="text-2xl md:text-3xl tracking-tighter md:tracking-wider font-bold text-orange-500 uppercase">Our Services</h1>
@@ -39,7 +39,7 @@ export default function Services() {
                         <img src={service.img} alt={service.heading} className="w-full object-cover h-70 mt-5" />
 
                         <div className="py-5 bg-blue-950 w-full rounded-b-xl">
-                            <button className="text-gray-100 py-2 px-5 rounded-xl hover:bg-orange-600 active:scale-90 cursor-pointer bg-orange-500">GET A QOUTE</button>
+                            <button className="text-gray-100 py-2 px-5 rounded-xl hover:bg-orange-600 active:scale-90 cursor-pointer bg-orange-500">GET A QUOTE</button>
                         </div>
                     </div>
                 ))}

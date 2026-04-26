@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Hero() {
     return(
-            <div className="w-auto text-gray-600 bg-blue-400 grid grid-cols-1 md:grid-cols-2 mt-20 mx-5 rounded-2xl gap-5 py-10 px-5 justify-center text-center items-center font-serif shadow-b shadow-lg shadow-blue-300">
+            <div className="text-gray-600 bg-blue-400 grid grid-cols-1 md:grid-cols-2 mt-20 mx-5 rounded-2xl gap-5 py-10 px-5 justify-center text-center items-center font-serif shadow-b shadow-lg shadow-blue-300">
                 <div className='bg-blue-300 rounded-2xl py-10 text-gray-200 text-left px-5 lg:ml-10'>
                     <h3 className="text-lg md:text-2xl text-orange-400 font-bold mb-2">Serving Accra, Ghana</h3>
                     <h1 className="text-4xl text-blue-900 lg:text-6xl tracking-tighter mb-4">Your Trusted Expert For CCTV, STARLINK, & ELECTRICAL</h1>

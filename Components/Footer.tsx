@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="bg-slate-900 text-slate-300 pt-10 font-serif">
+        <footer className="bg-slate-900 text-slate-300 pt-10 font-serif w-full">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-slate-800 pb-8">
                 {/* Brand Section */}
                 <div className="space-y-4">

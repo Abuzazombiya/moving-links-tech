@@ -20,10 +20,10 @@ export default function OurWork() {
     : projects.filter(p => p.category === filter);
 
     return(
-        <main>
+        <main className="w-full px-5">
             <div className="flex gap-3 items-center justify-center font-serif">
             <div className="w-20 border border-blue-900"></div>
-                <h1 className="text-2xl md:text-3xl tracking-tighter md:tracking-wider font-bold text-orange-500 uppercase">Our Services</h1>
+                <h1 className="text-2xl md:text-3xl tracking-tighter md:tracking-wider font-bold text-orange-500 uppercase">Our Work</h1>
              <div className="w-20 border border-blue-900"></div>
             </div>
 
@@ -39,9 +39,9 @@ export default function OurWork() {
                 ))}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-3 mt-5">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4 px-3 pt-5">
                 {filteredProjects.map((project) => (  
-                <div className="mx-2 my-3 relative" key={project.id}>
+                <div className="relative" key={project.id}>
                     <img src={project.img} width={500} alt={project.title} className="object-cover h-130 rounded-xl w-full" />
                     <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent rounded-xl"></div>
                     <div className="absolute inset-0 flex flex-col gap-2 mx-7 text-gray-100  top-90 items-center justify-center">
