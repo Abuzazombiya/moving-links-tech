@@ -1,6 +1,6 @@
+'use client'
+
 import { Calculator, Cctv, HousePlug, Network, SatelliteDish, SolarPanel } from "lucide-react"
-
-
 
 const servicesData = [
     { id: 1, icon: <Cctv size={60} />, heading: "CCTV SECURITY", listItems: { 1: "CCTV cameras", 2: "CCTV camera supply", 3: "Installing camera" }, img: "/assets/hero.JPG" },
@@ -16,6 +16,13 @@ const servicesData = [
     { id: 6, icon: <Network size={60} />, heading: "GENERAL NETWORKING & PABS", listItems: { 1: "Server networking", 2: "Automation", 3: "PABS networking" }, img: "/assets/hero.JPG" },
 ]
 export default function Services() {
+
+    const handleQuoteRequest = (serviceHeading: string) => {
+        const receiverPhone = '233246795904';
+        const message = `Hello! I'm interested in your ${serviceHeading} service. Please provide a quote.\n\nThank you!`;
+        const waUrl = `https://wa.me/${receiverPhone}?text=${encodeURIComponent(message)}`;
+        window.open(waUrl, '_blank');
+    }
 
     return (
         <main className="p-5 font-serif w-full" id="services">
@@ -39,7 +46,12 @@ export default function Services() {
                         <img src={service.img} alt={service.heading} className="w-full object-cover h-70 mt-5" />
 
                         <div className="py-5 bg-blue-950 w-full rounded-b-xl">
-                            <button className="text-gray-100 py-2 px-5 rounded-xl hover:bg-orange-600 active:scale-90 cursor-pointer bg-orange-500">GET A QUOTE</button>
+                            <button 
+                                onClick={() => handleQuoteRequest(service.heading)}
+                                className="text-gray-100 py-2 px-5 rounded-xl hover:bg-orange-600 active:scale-90 cursor-pointer bg-orange-500"
+                            >
+                                GET A QUOTE
+                            </button>
                         </div>
                     </div>
                 ))}

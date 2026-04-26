@@ -3,7 +3,7 @@ import { Eye, GraduationCap, LucideBowArrow, LucidePackageX, Star } from "lucide
 
 export default function About() {
     return(
-        <main className="font-serif w-full" id="about">
+        <main className="font-serif w-full mt-8" id="about">
             <div className="items-center justify-center flex gap-3">
             <div className="w-20 border border-blue-900"></div>
                 <h1 className="text-2xl md:text-3xl tracking-tighter md:tracking-wider font-bold text-orange-500 uppercase">About Us</h1>
@@ -13,25 +13,25 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-5 px-5 items-center justify-center">
                 <div>
                 <h1 className="text-4xl my-5 text-center tracking-widest font-bold text-blue-900 uppercase">Our foundation, <br /> Our values.</h1>
-                <p className="text-left text-lg">Moving Links Technology history, founded by Muhammad Akati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, suscipit sed doloremque aliquid molestias corrupti rem provident libero dolore ab animi a dolorem. Neque debitis distinctio, vero numquam ea ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos sint sequi ab eligendi asperiores. Praesentium illo soluta aperiam facere neque, doloribus, fugiat eaque quasi cumque est incidunt ab aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis illo enim?</p> 
-                <p className="text-left text-lg my-5"> Molestiae voluptatibus inventore sint id. Sunt, architecto! Dolorem rem rerum soluta doloribus nobis natus iste, consequuntur asperiores a? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi earum ad adipisci reiciendis delectus nostrum, sequi fugiat, quas tempore autem vitae nihil vero iste architecto? Neque hic consectetur cupiditate est.</p>
+                <p className="text-left text-lg">Moving Links Technology was founded by Muhammad Akati with a vision to bridge the digital divide in Ghana and beyond. We specialize in cutting-edge technology solutions including CCTV security systems, Starlink satellite internet installations, solar power systems, and comprehensive electrical services. Our team combines years of expertise with a passion for innovation to deliver reliable, high-quality solutions that empower businesses and homes with modern connectivity and security.</p> 
+                <p className="text-left text-lg my-5">From residential security setups to large-scale network installations, we pride ourselves on personalized service and technical excellence. Our commitment to staying at the forefront of technology ensures that our clients always have access to the latest advancements in connectivity and protection.</p>
 
                 <div className="flex flex-col gap-10 text-blue-900 px-5">
                     <div>
                         <h1 className="flex gap-2 text-3xl font-bold"><LucideBowArrow size={30} className="mt-1"/> Our Mission</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quam! Qui, vel cupiditate aut voluptatum aspernatur quas. Similique rem cum temporibus suscipit aliquam molestiae, vero beatae autem, sapiente atque eveniet!</p>
+                        <p>To provide innovative technology solutions that enhance security, connectivity, and sustainability for our clients, delivering exceptional service with integrity and expertise.</p>
                     </div>
                     <div>
                         <h1 className="flex gap-2 text-3xl font-bold"><Eye size={30} className="mt-1"/> Our Vision</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quam! Qui, vel cupiditate aut voluptatum aspernatur quas. Similique rem cum temporibus suscipit aliquam molestiae, vero beatae autem, sapiente atque eveniet!</p>
+                        <p>To be Ghana's leading technology solutions provider, pioneering advancements in security, internet connectivity, and renewable energy systems that transform communities and businesses.</p>
                     </div>
                     <div>
                         <h1 className="flex gap-2 text-3xl font-bold"><GraduationCap size={30} className="mt-1"/> Our Core Values</h1>
                         <ul className="list-disc">
-                            <li>Lorem ipsum dolor sit.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Innovation: Embracing cutting-edge technology to deliver superior solutions.</li>
+                            <li>Integrity: Building trust through honest, transparent, and ethical practices.</li>
+                            <li>Excellence: Striving for the highest quality in every project we undertake.</li>
+                            <li>Customer Focus: Prioritizing client needs and satisfaction above all else.</li>
                         </ul>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function About() {
 
                         <h1 className="text-3xl text-blue-900">Muhammad Akati</h1>
                         <p className="py-3">Founder, Managing Director</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi beatae sunt, dolores non suscipit at doloremque, commodi expedita quis repudiandae natus neque. Deleniti quo, ut voluptatem iure numquam nemo voluptatibus.</p>
+                        <p>With over 15 years in the technology and electrical engineering field, Muhammad Akati founded Moving Links Technology to address the growing need for reliable tech solutions in Ghana. His expertise spans from advanced security systems to satellite communications, driven by a commitment to empowering communities through technology.</p>
                     </div>
 
                     <h1 className="text-3xl text-blue-900 text-center">TRUST BADGES</h1>

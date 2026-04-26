@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="bg-slate-900 text-slate-300 pt-10 font-serif w-full">
+        <footer className="bg-slate-900 text-slate-300 pt-10 font-serif">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-slate-800 pb-8">
                 {/* Brand Section */}
                 <div className="space-y-4">
@@ -13,7 +13,7 @@ export default function Footer() {
                         </Link>
                     </div>
                 
-                    <p className="text-sm leading-relaxed text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quod aspernatur ut debitis odio eaque adipisci eum quae sint excepturi asperiores, qui cumque aut iste. Harum voluptates beatae molestiae reiciendis.</p>
+                    <p className="text-sm leading-relaxed text-slate-400">Empowering your world with cutting-edge technology solutions. From secure CCTV systems to high-speed Starlink internet and reliable electrical services, we connect and protect what matters most.</p>
                 <div className="flex gap-4">
                     
                 </div>
@@ -22,10 +22,10 @@ export default function Footer() {
                 <div>
                     <h4 className="text-white font-bold mb-6 text-sm uppercase tracking-wider">Quick Links</h4>
                     <ul className="space-y-2 text-sm">
-                        <li><Link href='/' className="hover:text-white transition">Buy Properties</Link></li>
-                        <li><Link href='/' className="hover:text-white transition">Rent Properties</Link></li>
-                        <li><Link href='/' className="hover:text-white transition">Luxury Villa</Link></li>
-                        <li><Link href='/' className="hover:text-white transition">Contact Us</Link></li>
+                        <li><Link href='/' className="hover:text-white transition">Home</Link></li>
+                        <li><Link href='#services' className="hover:text-white transition">Services</Link></li>
+                        <li><Link href='#ourwork' className="hover:text-white transition">Our Work</Link></li>
+                        <li><Link href='#contact' className="hover:text-white transition">Contact Us</Link></li>
                     </ul>
                 </div>
 
@@ -33,10 +33,10 @@ export default function Footer() {
                 <div>
                     <h4 className="text-white font-bold mb-6 text-sm uppercase tracking-wider">Services</h4>
                     <ul className="space-y-2 text-sm">
-                        <li><Link href='/' className="hover:text-white transition">Property Valuation</Link></li>
-                        <li><Link href='/' className="hover:text-white transition">Legal Consulting</Link></li>
-                        <li><Link href='/' className="hover:text-white transition">Interior Design</Link></li>
-                        <li><Link href='/' className="hover:text-white transition">Agents Program</Link></li>
+                        <li><Link href='#services' className="hover:text-white transition">CCTV Installation</Link></li>
+                        <li><Link href='#services' className="hover:text-white transition">Starlink Setup</Link></li>
+                        <li><Link href='#services' className="hover:text-white transition">General Electrical</Link></li>
+                        <li><Link href='#contact' className="hover:text-white transition">Custom Solutions</Link></li>
                     </ul>
                 </div>
 
@@ -46,15 +46,15 @@ export default function Footer() {
                     <ul className="space-y-2 text-sm">
                         <li className="flex items-start gap-3">
                             
-                            <span>Amasaman, Accra, Ghana</span>
+                            <span>Sackey Ansah Road, Accra, Ghana</span>
                         </li>
                         <li className="flex items-center gap-3">
                             
-                            <span>+233 257 182 413</span>
+                            <span>+233246795904 / +233243405413</span>
                         </li>
                         <li className="flex items-center gap-3">
                             
-                            <span>info@movinglinkstechnology.com</span>
+                            <span>akatem9@gmail.com</span>
                         </li>
                     </ul>
                 </div>
